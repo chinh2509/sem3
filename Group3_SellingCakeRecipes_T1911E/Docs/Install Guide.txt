@@ -1,0 +1,23 @@
+I.Requirement
+ Before running out application, please install these following software:
+  1. Microsoft Visual Studio 2019
+  2. Sql Server 
+  3. Microsoft Visual Code
+   - In Visual Code, install Live Server Extenstion
+
+II.Running Local
+ 1.Unpack file project.
+ 2.Open MySql WorkBench and create new Connection.
+ 3.Open Connection created, at Server tab, open Data Import.
+ 4.Select Import from Self-Contained File, then select file dbGroup3.sql in project folder -> Database, finally select Start Import.
+ 5.In project folder, open Server Folder, open ProjectSem3.sln by Microsoft Visual Studio.
+ 6.Wait for project finish setup all dependency.
+ 7.In Solution Explorer, open "appsettings.json".
+ 8.At ConnectionStrings, change Server. Press Ctrl + S to save change.
+ 9.Press F5 to start project, project will open in new window browser.
+ 10.Open new window browser, it will run https://localhost:44370/".
+
+
+III. Account for Access Admin 
+ - Username: anhktth1909006@fpt.edu.vn
+ - Password: Kieutienanh38.
